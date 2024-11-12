@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>486</width>
+    <height>415</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>FORM PENGGAJIAN</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>331</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="noPenggajianLabel">
+      <property name="text">
+       <string>No Penggajian</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="noPenggajianLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="periodeGajiLabel">
+      <property name="text">
+       <string>Periode Gaji</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="periodeGajiLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="tanggalLabel">
+      <property name="text">
+       <string>Tanggal</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QDateEdit" name="tanggalDateEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="kodeKaryawanLabel">
+      <property name="text">
+       <string>Kode Karyawan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QComboBox" name="kodeKaryawanComboBox">
+      <item>
+       <property name="text">
+        <string>KYW001 - UTUH</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KYW002 - UDIN</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="gajiPokokLabel">
+      <property name="text">
+       <string>Gaji Pokok</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="gajiPokokLineEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="tunjTransportasiLabel">
+      <property name="text">
+       <string>Tunj. Transportasi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="tunjTransportasiLineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="tunjMakanLabel">
+      <property name="text">
+       <string>Tunj. Makan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="tunjMakanLineEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="totalLemburLabel">
+      <property name="text">
+       <string>Total Lembur</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="totalLemburLineEdit"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="totalBonusLabel">
+      <property name="text">
+       <string>Total Bonus</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="totalBonusLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>304</x>
+     <y>340</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>340</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ubah</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>340</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

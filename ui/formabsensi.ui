@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>410</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>30</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>FORM ABSENSI</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>80</y>
+     <width>321</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="iDAbsensiLabel">
+      <property name="text">
+       <string>ID Absensi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="iDAbsensiLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="kodeKaryawanLabel">
+      <property name="text">
+       <string>Kode Karyawan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="kodeKaryawanComboBox"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="tanggalLabel">
+      <property name="text">
+       <string>Tanggal</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QDateEdit" name="tanggalDateEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="jamMasukLabel">
+      <property name="text">
+       <string>Jam Masuk</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QTimeEdit" name="jamMasukTimeEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="jamKeluarLabel">
+      <property name="text">
+       <string>Jam Keluar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QTimeEdit" name="jamKeluarTimeEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="statusKehadiranLabel">
+      <property name="text">
+       <string>Status Kehadiran</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="statusKehadiranComboBox"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="keteranganLabel">
+      <property name="text">
+       <string>Keterangan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="keteranganLineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="jenisKerjaLabel">
+      <property name="text">
+       <string>Jenis Kerja</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="jenisKerjaLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>274</x>
+     <y>330</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>330</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ubah</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>330</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
