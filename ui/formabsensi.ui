@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>410</height>
+    <width>739</width>
+    <height>685</height>
    </rect>
   </property>
   <property name="font">
@@ -106,7 +106,33 @@
      </widget>
     </item>
     <item row="5" column="1">
-     <widget class="QComboBox" name="statusKehadiranComboBox"/>
+     <widget class="QComboBox" name="statusKehadiranComboBox">
+      <item>
+       <property name="text">
+        <string>Pilih Kehadiran</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hadir</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Alfa</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sakit</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Cuti</string>
+       </property>
+      </item>
+     </widget>
     </item>
     <item row="7" column="0">
      <widget class="QLabel" name="keteranganLabel">
@@ -130,7 +156,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="btnSimpan">
    <property name="geometry">
     <rect>
      <x>274</x>
@@ -143,7 +169,7 @@
     <string>Simpan</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="btnUbah">
    <property name="geometry">
     <rect>
      <x>160</x>
@@ -156,7 +182,7 @@
     <string>Ubah</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
+  <widget class="QPushButton" name="btnHapus">
    <property name="geometry">
     <rect>
      <x>50</x>
@@ -167,6 +193,35 @@
    </property>
    <property name="text">
     <string>Hapus</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableAbsen">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>380</y>
+     <width>681</width>
+     <height>281</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCetak">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>330</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Cetak</string>
    </property>
   </widget>
  </widget>

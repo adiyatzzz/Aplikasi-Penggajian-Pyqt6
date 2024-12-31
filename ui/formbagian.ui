@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>344</height>
+    <width>716</width>
+    <height>591</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -175,7 +175,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="btnSimpan">
    <property name="geometry">
     <rect>
      <x>274</x>
@@ -193,7 +193,7 @@
     <string>Simpan</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="btnUbah">
    <property name="geometry">
     <rect>
      <x>160</x>
@@ -211,7 +211,7 @@
     <string>Ubah</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
+  <widget class="QPushButton" name="btnHapus">
    <property name="geometry">
     <rect>
      <x>40</x>
@@ -227,6 +227,34 @@
    </property>
    <property name="text">
     <string>Hapus</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableBagian">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>310</y>
+     <width>641</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCetak">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>260</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Cetak</string>
    </property>
   </widget>
  </widget>
